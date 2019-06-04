@@ -2,6 +2,7 @@
 
 设置自动加载.bash_profile的方法如下： 
 在.zshrc配置文件中调用.bash_profile文件 
+
 打开zsh的配置文件.zshrc，在最后面添加一行代码source /Users/mymac/.bash_profile，这样重启iterm便会自动加载.bash_profile文件了。
 --------------------- 
 
@@ -15,7 +16,7 @@ source /Users/suxiongwei/.bash_profile
 
 .bash_profile
 
-```
+```xml
 export M2_HOME=/Users/suxiongwei/program/apache-maven-3.6.0
 export PATH=$PATH:$M2_HOME/bin
 PATH=$PATH:/usr/local/mysql/bin
