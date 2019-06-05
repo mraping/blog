@@ -13,7 +13,7 @@
 
 ## 技术栈目录
 
-* [`JavaScript`](/javascript/base.md)
+* [`Interview`](/Interview/README.md)
 * [`ECMAScript6`](/es6/readme.md)
 * [`Node.js`](/nodejs/module.md)
 * [`DataBase`](/database/base.md)
