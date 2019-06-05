@@ -1,1 +1,0 @@
-[全文搜索引擎选ElasticSearch还是Solr？](https://mp.weixin.qq.com/s/fSJvaGE3wtDM2DMaRKckaA)
