@@ -9,12 +9,12 @@
 - 点击右上角Star :star: 给予关注
 - 分享给您身边更多的小伙伴
 
-> **作者：苏雄伟，Java Developer
+> 作者：苏雄伟，Java Developer
 
 ## 技术栈目录
 
 * [`Interview`](/Interview/README.md)
-* [`Java`]([Java](https://github.com/suxiongwei/blog/tree/master/docs/Java))
+* [`Java`](https://github.com/suxiongwei/blog/tree/master/docs/Java)
 * [`Linux`](https://github.com/suxiongwei/blog/tree/master/docs/Linux)
 * [`SpringBoot`](https://github.com/suxiongwei/blog/tree/master/docs/SpringBoot)
 * [`搜索`](https://github.com/suxiongwei/blog/tree/master/docs/搜索)
