@@ -1,0 +1,1 @@
+[死磕 Elasticsearch 方法论：普通程序员高效精进的 10 大狠招！](https://mp.weixin.qq.com/s/stC_xMP1n3aQ-0ZNAc3eQA)
