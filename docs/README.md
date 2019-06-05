@@ -13,7 +13,6 @@
 
 ## 技术栈目录
 
-* [`Interview`](/Interview/README.md)
 * [`Java`](https://github.com/suxiongwei/blog/tree/master/docs/Java)
 * [`Linux`](https://github.com/suxiongwei/blog/tree/master/docs/Linux)
 * [`SpringBoot`](https://github.com/suxiongwei/blog/tree/master/docs/SpringBoot)
@@ -21,6 +20,7 @@
 * [`架构性能`](https://github.com/suxiongwei/blog/tree/master/docs/架构性能)
 * [`算法`](https://github.com/suxiongwei/blog/tree/master/docs/算法)
 * [`设计模式`](https://github.com/suxiongwei/blog/tree/master/docs/设计模式)
+* [`Interview`](/Interview/README.md)
 * [`其它资料`](https://github.com/suxiongwei/blog/tree/master/docs/其它资料)
 
 ## 转载分享
