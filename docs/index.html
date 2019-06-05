@@ -13,35 +13,60 @@
   <div id="app"></div>
   <div id="gitalk-container"></div>
   <script>
+    var gitalkConfig = {
+      clientID: '084f309ea8bc385148bc',
+      clientSecret: 'fa4bff71adc7fbb44a7ca6deffecc9ec43e29301',
+      repo: 'Nodejs-Roadmap',
+      owner: 'q-angelo',
+      admin: ["q-angelo"],
+      distractionFreeMode: false
+    };
     window.$docsify = {
-      name: '《苏雄伟技术博客》',
+     name: '《苏雄伟技术博客》',
       repo: 'https://github.com/suxiongwei/blog',
       coverpage: true,
       loadSidebar: true,
-    
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 Type to search ',
+        noData: '😞 No Results! ',
+        depth: 6
+      },
       pagination: {
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: true
       },
-      
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function() {
+            var label, domObj, main, divEle, gitalk;
+            label = vm.route.path.split("/").pop();
+            domObj = Docsify.dom;
+            main = domObj.getNode("#main");
+            Array.apply(
+              null,
+              document.querySelectorAll("div.gitalk-container")
+            ).forEach(function(ele) {
+              ele.remove();
+            });
+            divEle = domObj.create("div");
+            divEle.id = "gitalk-container-" + label;
+            divEle.className = "gitalk-container";
+            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+            domObj.appendTo(domObj.find(".content"), divEle);
+            gitalk = new Gitalk(
+              Object.assign(gitalkConfig, { id: !label ? "home" : label })
+            );
+            gitalk.render("gitalk-container-" + label);
+          });
+        }
+      ]
     }
   </script>
   
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script>
-    var gitalk = new Gitalk({
-        clientID: '084f309ea8bc385148bc',
-        clientSecret: 'd5ffaabce3f4715db4fa45e7c8ccec07fe910278',
-        repo: 'blog',
-        owner: 'suxiongwei',
-        admin: ["suxiongwei"],
-        distractionFreeMode: false
-  })
-    gitalk.render('gitalk-container')
-  </script>
-  
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
