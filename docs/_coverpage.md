@@ -4,7 +4,7 @@
 
 - 本博客是作者从事```Java Developer```以来的学习历程，旨在记录平时工作学习遇到的技术问题，如果本文能给您得到帮助，我将感到十分荣幸！
 
-[![stars](https://badgen.net/badge/star/177/blue)![forks](https://badgen.net/badge/fork/148/blue)](https://badgen.net/badge/fork/148/blue) 
+[![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap) 
 
 [GitHub](<https://github.com/suxiongwei/blog>)
 [开始阅读](README.md)
