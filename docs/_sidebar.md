@@ -1,70 +1,85 @@
 * Introduction
     * [简介](README.md)
 
-* JavaScript
-    * [基础](/javascript/base.md)
-    * [This](/javascript/this.md)
-    * [函数](/javascript/func.md)
-    * [对象](/javascript/object.md)
-    * [原型](/javascript/prototype.md)
-    * [正则](/javascript/regexp.md)
-* ECMAScript6
-    * [let&const 变量声明](/es6/readme.md#新增声明变量)
-    * [对象&数组解构赋值](/es6/readme.md#解构赋值)
-    * [数据类型功能扩展系列](/es6/readme.md#解构赋值)
-    * [Set、Map 数据结构](/es6/set-map.md#解构赋值)
-    * [Promise](/es6/promise.md)
-    * [Decorators](/es6/decorators.md)
-    * [Symbol](/es6/symbol.md)
-    * [Generator](/es6/generator.md)
-* Node.js
-    * [Node模块加载机制与实际应用](/nodejs/module.md)
-    * [事件轮询（Event Loop）](/nodejs/event-loop.md)
-    * [常用 Web 框架&中间件汇总](/nodejs/middleware.md)
-    * [Logger 日志模块](/nodejs/logger.md)
-    - [Crypto 加解密模块](/nodejs/crypto.md)
-    - [缓存](/nodejs/base.md#缓存)
-    - [定时任务](/nodejs/base.md#定时任务)
-    - [模板引擎](/nodejs/base.md#模板引擎)
-    - [日志记录收集](/nodejs/base.md#日志记录收集)
-    - [测试框架&工具](/nodejs/base.md#测试)
-    - [Node.js Web 开发框架选型](/nodejs/base.md#框架)
-    - [对象关系映射 (ORM)](/nodejs/base.md#ORM)
-* DataBase
-    - [非关系型数据库 NoSQL](/database/README.md#NoSQL)
-        - [MongoDB](/database/mongodb.md)
-    - [关系型数据库 Relational](/database/README.md#Relational)
-    - [搜索引擎 Search Engines](/database/README.md#SearchEngines)
-
-* Microservice
-    - [服务注册发现之Consul](/microservice/consul.md)
-    - [消息中间件之RabbitMQ](/microservice/rabbitmq-base.md)
-    - 轻量级数据通信
-        - [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=57966)
-        - [Apache Thrift](http://thrift.apache.org/)
-        - [Apache Dubbo一款高性能Java RPC框架](http://dubbo.apache.org/zh-cn/index.html)
-        - [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html) [Best Practices for Designing a Pragmatic RESTful API
-        ](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#versioning)
+* Interview
+    * [Java面试题1](https://github.com/suxiongwei/blog/blob/master/docs/Interview/Java面试题1.md)
+    * [爆料一下，我的面试之道](https://github.com/suxiongwei/blog/blob/master/docs/Interview/[转载]爆料一下，我的面试之道.md)
+    * [redis 的并发竞争问题是什么？如何解决这个问题？了解 redis 事务的 CAS 方案吗？]()
+    * [技术面试必备基础知识](https://github.com/suxiongwei/blog/blob/master/docs/Interview/技术面试必备基础知识.md)
+    * [生产环境中的 redis 是怎么部署的?]()
+    * [集群部署时的分布式 session 如何实现？]()
+    * [项目中缓存是如何使用的？为什么要用缓存？缓存使用不当会造成什么后果？](https://github.com/suxiongwei/blog/blob/master/docs/Interview/项目中缓存是如何使用的？为什么要用缓存？缓存使用不当会造成什么后果？.md)
+* Java
+    * [Comparable详解](https://github.com/suxiongwei/blog/blob/master/docs/Java/Comparable详解.md)
+    * [ConcurrentHashMap](https://github.com/suxiongwei/blog/blob/master/docs/Java/ConcurrentHashMap.md)
+    * [JVM 调优](https://github.com/suxiongwei/blog/blob/master/docs/Java/JVM调优.md)
+    * [Java中Comparable和Comparator区别小结](https://github.com/suxiongwei/blog/blob/master/docs/Java/Java中Comparable和Comparator区别小结.md)
+    * [Java中的适配器模式](https://github.com/suxiongwei/blog/blob/master/docs/Java/Java中的适配器模式.md)
+    * [Java代码优化](https://github.com/suxiongwei/blog/blob/master/docs/Java/Java代码优化.md)
+    * [Java并发编程-内存可见性](https://github.com/suxiongwei/blog/blob/master/docs/Java/Java并发编程-内存可见性.md)
+    * [SimpleDateFormat的正确使用方式](https://github.com/suxiongwei/blog/blob/master/docs/Java/SimpleDateFormat的正确使用方式.md)
+    * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove、add 操作]()
+    * [阿里巴巴Java开发手册相关记录](https://github.com/suxiongwei/blog/blob/master/docs/Java/阿里巴巴Java开发手册相关记录.md)
+* Linux
+    * [Linux 查看 CPU、内存、磁盘、网络]()
+    * [Linux命令](https://github.com/suxiongwei/blog/blob/master/docs/Linux/Linux命令.md)
+* SpringBoot
+    - [SpringBoot @RequestBody注解]()
+    - [SpringBoot中的事务管理](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot中的事务管理.md)
+    - [SpringBoot使用RestTemplate+HttpClient连接池发送Http消息](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot使用RestTemplate%2BHttpClient连接池发送Http消息.md)
+    - [SpringBoot使用自定义注解实现权限拦截](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot使用自定义注解实现权限拦截.md)
+- [SpringBoot对Redis操作实现类](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot对Redis操作实现类.md)
+    - [SpringBoot应用集成Spring Session]()
+    - [SpringBoot打包部署对jsp的支持](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot打包部署对jsp的支持.md)
+    - [SpringBoot概览](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot概览.md)
+    - [SpringBoot读写分离](https://github.com/suxiongwei/blog/blob/master/docs/SpringBoot/SpringBoot读写分离.md)
+    - [springboot 项目启动脚本]()
+    - [springboot集成swagger2，构建优雅的Restful API]()
+    - [基于SpringBoot & Quartz实现分布式定时任务]()
     
-* HTTP协议
-    - [http 三次握手](https://github.com/Q-Angelo/http-protocol#http三次握手)
-    - [跨域 CORS 的形成与实现](https://github.com/Q-Angelo/http-protocol#跨域cors)
-    - [缓存头Cache-Control的含义和应用](https://github.com/Q-Angelo/http-protocol#可缓存性)
-    - [HTTP 长链接分析](https://github.com/Q-Angelo/http-protocol#http长链接)
-    - [Nginx服务配置实现 HTTP2 协议](https://github.com/Q-Angelo/http-protocol#实现http2协议)
-
-* DevOps
-    - [Node.js 生产环境完整部署指南](/devops/node-deploy.md)
-    - [NPM 模块管理应用实践](/devops/npm-deploy.md)
-    - [Linux 系统问题汇总](/devops/linux-question.md)
-
-* 工具
-    - [Git 常用命令及日常问题集锦](/tools/git.md)
-    - [SEO 网站优化 title 置与快速排名](/tools/seo.md)
-    - [Docsify 快速搭建个人博客](/tools/docsify.md)
-
-* 资料
-    - [书籍推荐](/materials/book.md)
-    - [Blog推荐](/materials/blog.md)
-    - [文章推荐](/materials/article.md)
+* 搜索
+    - [ELKStack](https://github.com/suxiongwei/blog/blob/master/docs/搜索/ELKStack.md)
+    - [Elasticsearch相关基础概念](https://github.com/suxiongwei/blog/blob/master/docs/搜索/Elasticsearch相关基础概念.md)
+    - [lucene相关度打分](https://github.com/suxiongwei/blog/blob/master/docs/搜索/lucene相关度打分.md)
+    - [全文搜索引擎选Elasticsearch还是Solr？](https://github.com/suxiongwei/blog/blob/master/docs/搜索/全文搜索引擎选Elasticsearch还是Solr？.md)
+    - [全文检索及lucene如何实现全文检索](https://github.com/suxiongwei/blog/blob/master/docs/搜索/全文检索及lucene如何实现全文检索.md)
+    - [学习Elasticsearch必须先学习Lucene吗？](https://github.com/suxiongwei/blog/blob/master/docs/搜索/学习Elasticsearch必须先学习Lucene吗？.md)
+    - [搜索引擎核心原理](https://github.com/suxiongwei/blog/blob/master/docs/搜索/搜索引擎核心原理.md)
+    - [数据搜索核心原理](https://github.com/suxiongwei/blog/blob/master/docs/搜索/数据搜索核心原理.md)
+    
+* 架构性能
+    - [MySQL学习笔记](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/MySQL学习笔记.md)
+    - [redis 的并发竞争问题是什么？如何解决这个问题？了解 redis 事务的 CAS 方案吗?]()
+    - [redis 的过期策略都有哪些？内存淘汰机制都有哪些？手写一下 LRU 代码实现？]()
+    - [为什么使用消息队列？消息队列有什么优点和缺点？Kafka、ActiveMQ、RabbitMQ、RocketMQ 都有什么优点和缺点？](https://github.com/suxiongwei/blog/blob/master/docs/%E6%9E%B6%E6%9E%84%E6%80%A7%E8%83%BD/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%EF%BC%9F%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E6%9C%89%E4%BB%80%E4%B9%88%E4%BC%98%E7%82%B9%E5%92%8C%E7%BC%BA%E7%82%B9%EF%BC%9FKafka%E3%80%81ActiveMQ%E3%80%81RabbitMQ%E3%80%81RocketMQ%20%E9%83%BD%E6%9C%89%E4%BB%80%E4%B9%88%E4%BC%98%E7%82%B9%E5%92%8C%E7%BC%BA%E7%82%B9%EF%BC%9F.md)
+    - [为什么要进行系统拆分？如何进行系统拆分？拆分后不用 dubbo 可以吗？]()
+- [互联网公司技术架构大全，你值得拥有](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/互联网公司技术架构大全，你值得拥有.md)
+    - [分布式下的应用限流难点](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/分布式下的应用限流难点.md)
+    - [分布式事务了解吗？你们是如何解决分布式事务问题的？](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/分布式事务了解吗？你们是如何解决分布式事务问题的？.md)
+    - [分布式系统](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/分布式系统.md)
+    - [分库分表之后，id 主键如何处理？]()
+    - [分库分表技术](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/分库分表技术.md)
+    - [如何保证消息不被重复消费？（如何保证消息消费的幂等性）](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/如何保证消息不被重复消费？（如何保证消息消费的幂等性）.md)
+    - [老哥：说实话，不深入了解MySQL存储原理，还真回答不了这几个问题\]](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/学习笔记：[老哥：说实话，不深入了解MySQL存储原理，还真回答不了这几个问题].md)
+    - [支撑十万并发的黑科技](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/支撑十万并发的黑科技.md)
+    - [改善网站性能的几大手段](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/改善网站性能的几大手段.md)
+    - [百亿交易额背后的缓存架构-高并发分布式](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/百亿交易额背后的缓存架构-高并发分布式.md)
+    - [集群部署时的分布式 session 如何实现？]()
+    - [项目中缓存是如何使用的？为什么要用缓存？缓存使用不当会造成什么后果？](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/项目中缓存是如何使用的？为什么要用缓存？缓存使用不当会造成什么后果？.md)
+    - [高并发的技术方案](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/高并发的技术方案.md)
+    - [高性能架构-缓存](https://github.com/suxiongwei/blog/blob/master/docs/架构性能/高性能架构-缓存.md)
+    
+* 算法
+    - [二分查找](https://github.com/suxiongwei/blog/blob/master/docs/算法/二分查找.md)
+    - [冒泡排序](https://github.com/suxiongwei/blog/blob/master/docs/算法/冒泡排序.md)
+    - [堆排序](https://github.com/suxiongwei/blog/blob/master/docs/算法/堆排序.md)
+- [桶排序](https://github.com/suxiongwei/blog/blob/master/docs/算法/桶排序.md)
+    - [计数排序](https://github.com/suxiongwei/blog/blob/master/docs/算法/计数排序.md)
+    - [选择排序](https://github.com/suxiongwei/blog/blob/master/docs/算法/选择排序.md)
+    
+* 设计模式
+    - [责任链模式](https://github.com/suxiongwei/blog/blob/master/docs/设计模式/责任链模式.md)
+    
+* 其它资料
+    - [文章列表](https://github.com/suxiongwei/blog/blob/master/docs/其它资料)
 
