@@ -37,7 +37,7 @@
     - [Java高并发多线程必须懂的50个问题](/Java/Java高并发多线程必须懂的50个问题.md)
     - [Java中的适配器模式](/Java/Java中的适配器模式.md)
     - [Java并发编程-Exchanger](/Java/Java并发编程-Exchanger.md)
-    - [JVM 调优](/Java/JVM 调优.md)
+    - [JVM调优](/Java/JVM调优.md)
     - [Java并发编程-Semaphore](/Java/Java并发编程-Semaphore.md)
     - [Java并发编程-Feature和FeatureTask](/Java/Java并发编程-Feature和FeatureTask.md)
     - [为什么阿里巴巴禁止在foreach循环里进行元素的 remove、add 操作](/Java/禁止在foreach循环里进行元素的remove、add操作)
