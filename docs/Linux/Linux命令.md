@@ -13,7 +13,7 @@ Mac下Vim编辑快捷键小结| https://www.jianshu.com/p/6f13474d36ac
 [jstat](https://www.cnblogs.com/alipayhutu/archive/2012/08/20/2647353.html)| -class：统计class loader行为信息，示例：jstat -class 17970 1000 10 (每隔1秒监控一次，一共做10次) 
 | -gc：统计jdk gc时heap信息 
 | -compile：统计编译行为信息 
-|                        
+查看服务器端口开放| curl 39.107.59.19:9999 
 |                        
 |                        
 |                        
