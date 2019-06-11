@@ -14,11 +14,11 @@ Mac下Vim编辑快捷键小结| https://www.jianshu.com/p/6f13474d36ac
 | -gc：统计jdk gc时heap信息 
 | -compile：统计编译行为信息 
 查看服务器端口开放| curl 39.107.59.19:9999 
-|                        
-|                        
-|                        
-|                        
-|                        
+[jcmd](https://www.jianshu.com/p/388e35d8a09b)| jcmd 11295 VM.system_properties 查看 JVM 的属性信息 
+| jcmd 11295 VM.version 查看目标jvm进程的版本信息 
+| jcmd pid PerfCounter.print 查看指定进程的性能统计信息 
+jmap| jmap -heap 11295 
+jstack| jstack 11295 > jstack_20190613.log 
 |                        
 |                        
 |                        
