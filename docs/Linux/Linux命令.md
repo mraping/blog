@@ -19,7 +19,7 @@ Mac下Vim编辑快捷键小结| https://www.jianshu.com/p/6f13474d36ac
 | jcmd pid PerfCounter.print 查看指定进程的性能统计信息 
 jmap| jmap -heap 11295 
 jstack| jstack 11295 > jstack_20190613.log 
-|                        
+iostat| 查看磁盘的读写情况 
 |                        
 |                        
 |                        
