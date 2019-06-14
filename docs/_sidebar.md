@@ -25,7 +25,6 @@
     - [Java中Comparable和Comparator区别小结](/Java/Java中Comparable和Comparator区别小结.md)
     - [Java并发编程-CyclicBarrier](/Java/Java并发编程-CyclicBarrier.md)
     - [Java并发编程-内存可见性](/Java/Java并发编程-内存可见性.md)
-    - [.DS_Store](/Java/.DS_Store)
     - [Java并发编程-wait、notify、notifyAll](/Java/Java并发编程-wait、notify、notifyAll.md)
     - [Comparable详解](/Java/Comparable详解.md)
     - [Java面试题1](/Java/Java面试题1.md)
@@ -77,7 +76,6 @@
     
 * 搜索
     - [ELKStack](/搜索/ELKStack.md)
-    - [.DS_Store](/搜索/.DS_Store)
     - [lucene相关度打分](/搜索/lucene相关度打分.md)
     - [全文检索及lucene如何实现全文检索](/搜索/全文检索及lucene如何实现全文检索.md)
     - [Java中文分词HanLP使用](/搜索/Java中文分词HanLP使用.md)
