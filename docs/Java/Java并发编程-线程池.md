@@ -72,6 +72,11 @@ new ThreadPoolExecutor(corePoolSize,maximumPoolSize,keepAliveTime,milliseconds,r
 
 > 可以使用两个方法向线程池提交任务，分别为execute()和submit()方法。   
 
+任务用什么表示?
+
+- Runnable 
+- Callable
+
 execute()方法用于提交不需要返回值的任务，所以无法判断任务是否被线程池执行成功。
 submit()方法用于提交需要返回值的任务。线程池会返回一个future类型的对象，通过这个future对象可以判断任务是否执行成功，并且可以通过future的get()方法来获取返回值，get()方法`会阻塞当前线程直到任务完成`，而使get (long timeout, TimeUnit unit)方法则会阻塞当前线程一段时间后立即返回，这时候有可能任务没有执行完。
 

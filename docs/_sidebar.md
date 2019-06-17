@@ -27,7 +27,7 @@
     - [Java并发编程-内存可见性](/Java/Java并发编程-内存可见性.md)
     - [Java并发编程-wait、notify、notifyAll](/Java/Java并发编程-wait、notify、notifyAll.md)
     - [Comparable详解](/Java/Comparable详解.md)
-    - [Java面试题1](/Java/Java面试题1.md)
+    - [Java面试题](/Java/Java面试题.md)
     - [Java并发编程-Synchronized](/Java/Java并发编程-Synchronized.md)
     - [Java并发编程-并发容器](/Java/Java并发编程-并发容器.md)
     - [Java并发编程-CountDownLatch详解](/Java/Java并发编程-CountDownLatch详解.md)
@@ -101,9 +101,10 @@
     - [责任链模式](/设计模式/责任链模式.md)
 
 * Interview
-    - [Java面试题1](/Interview/Java面试题1.md)
+    - [Java面试题](/Interview/Java面试题1.md)
     - [技术面试必备基础知识](/Interview/技术面试必备基础知识.md)
     - [面试之道](/Interview/面试之道.md)
+    - [用程序实现两个线程交替打印0~100的奇偶数](/Interview/用程序实现两个线程交替打印0~100的奇偶数.md)
     
 * 其它资料
     - [文章列表](/其它资料)
