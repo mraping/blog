@@ -46,6 +46,7 @@
     - [Java并发编程-线程池](/Java/Java并发编程-线程池.md)
     - [异步编程](/Java/异步编程.md)
     - [Java线程的六种状态](/Java/Java线程的六种状态.md)
+    - [Java中常量Map、常量List](/Java/Java中常量Map、常量List)
     
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
