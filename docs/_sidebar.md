@@ -26,7 +26,6 @@
     - [Java并发编程-CyclicBarrier](/Java/Java并发编程-CyclicBarrier.md)
     - [Java并发编程-内存可见性](/Java/Java并发编程-内存可见性.md)
     - [Java并发编程-wait、notify、notifyAll](/Java/Java并发编程-wait、notify、notifyAll.md)
-    - [Comparable详解](/Java/Comparable详解.md)
     - [Java面试题](/Java/Java面试题.md)
     - [Java并发编程-Synchronized](/Java/Java并发编程-Synchronized.md)
     - [Java并发编程-并发容器](/Java/Java并发编程-并发容器.md)
@@ -47,6 +46,8 @@
     - [异步编程](/Java/异步编程.md)
     - [Java线程的六种状态](/Java/Java线程的六种状态.md)
     - [Java中常量Map、常量List](/Java/Java中常量Map、常量List)
+    - [Java并发编程-ThreadLocal](/Java/Java中常量Map、常量List.md)
+    - [Java并发编程-Thread.join()的使用](/Java/Java并发编程-Thread.join()的使用.md)
     
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
