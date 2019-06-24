@@ -1,6 +1,5 @@
 * Introduction
     * [简介](README.md)
-
 * 架构性能
     - [支撑十万并发的黑科技](/架构性能/支撑十万并发的黑科技.md)
     - [redis](/架构性能/redis.md)
@@ -18,7 +17,6 @@
     - [消息中间件](/架构性能/消息中间件.md)
     - [MySQL读写分离](/架构性能/MySQL读写分离.md)
     - [大型网站灵魂-性能](/架构性能/大型网站灵魂-性能.md)
-    
 * Java
     - [Java并发编程-Atomics](/Java/Java并发编程-Atomics.md)
     - [Java并发编程-ReentrantLock](/Java/Java并发编程-ReentrantLock.md)
@@ -46,7 +44,6 @@
     - [Java中常量Map、常量List](/Java/Java中常量Map、常量List)
     - [Java并发编程-ThreadLocal](/Java/Java并发编程-ThreadLocal.md)
     - [Java并发编程-Thread.join()的使用](/Java/Java并发编程-Thread.join()的使用.md)
-    
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
     - [Linux查看CPU、内存、磁盘、网络](/Linux/Linux查看CPU、内存、磁盘、网络.md)
@@ -55,7 +52,6 @@
     - [Linux常用命令](/Linux/Linux常用命令.md)
     - [Linux命令大全搜索工具](/Linux/Linux命令大全搜索工具.md)
     - [Linux中rz和sz命令用法](/Linux/Linux中rz和sz命令用法.md)
-
 * SpringBoot
     - [SpringBoot使用RestTemplate+HttpClient](/SpringBoot/SpringBoot使用RestTemplate+HttpClient.md)
     - [springboot集成swagger2](/SpringBoot/springboot集成swagger2.md)
@@ -73,7 +69,6 @@
     - [SpringBoot应用集成SpringSession](/SpringBoot/SpringBoot应用集成SpringSession.md)
     - [SpringBoot与SpringData-JPA的集成](/SpringBoot/SpringBoot与SpringData-JPA的集成.md)
     - [自定义注解打印出入参日志](/SpringBoot/自定义注解打印出入参日志.md)
-    
 * 搜索
     - [ELKStack](/搜索/ELKStack.md)
     - [lucene相关度打分](/搜索/lucene相关度打分.md)
@@ -88,7 +83,6 @@
     - [IKAnalyzer简单介绍](/搜索/IKAnalyzer简单介绍.md)
     - [Elasticsearch相关基础概念](/搜索/Elasticsearch相关基础概念.md)
     - [字典树](/搜索/字典树.md)
-
 * 算法
     - [二分查找](/算法/二分查找.md)
     - [冒泡排序](/算法/冒泡排序.md)
@@ -96,16 +90,19 @@
     - [桶排序](/算法/桶排序.md)
     - [计数排序](/算法/计数排序.md)
     - [选择排序](/算法/选择排序.md)
-    
 * 设计模式
-    - [责任链模式](/设计模式/责任链模式.md)
-
+    - [策略模式](/设计模式/策略模式.md)
+- [责任链模式](/设计模式/责任链模式.md)
+    - [适配器模式](/设计模式/适配器模式.md)
+    - [代理模式](/设计模式/代理模式.md)
+    - [原型模式](/设计模式/原型模式.md)
+    - [单例模式](/设计模式/单例模式.md)
+    - [设计原则](/设计模式/设计原则.md)
 * Interview
     - [Java面试题](/Interview/Java面试题1.md)
     - [技术面试必备基础知识](/Interview/技术面试必备基础知识.md)
     - [面试之道](/Interview/面试之道.md)
     - [用程序实现两个线程交替打印0~100的奇偶数](/Interview/用程序实现两个线程交替打印0~100的奇偶数.md)
-    
 * 其它资料
     - [文章列表](/其它资料)
 
