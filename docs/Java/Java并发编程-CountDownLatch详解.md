@@ -22,5 +22,55 @@ CountDownLatch典型用法1：某一线程在开始运行前等待n个线程执�
 [CountDownLatch详解](https://yq.aliyun.com/articles/689069?spm=a2c4e.11157919.spm-cont-list.182.146c27ae5jqaF5)
 [什么时候使用CountDownLatch](http://www.importnew.com/15731.html)
 
+### 代码实例
 
+```java
+public class TestCountDownLatch {
+    private CountDownLatch countDownLatch = new CountDownLatch(5);
+
+    private class Runner implements Runnable {
+
+        private int result;
+
+        public Runner(int result) {
+            this.result = result;
+        }
+
+        @Override
+        public void run() {
+            try {
+                System.out.println("运动员跑的秒数:" + result);
+                // 模拟跑了多少秒
+                Thread.sleep(result * 1000);
+                // 跑完了将计数器减一
+                countDownLatch.countDown();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    private void begin() {
+        System.out.println("赛跑开始");
+        Random random = new Random(System.currentTimeMillis());
+        for (int i = 0; i <= 4; i++) {
+            int result = random.nextInt(3) + 1;
+            // 随机每个运动员跑几秒
+            new Thread(new Runner(result)).start();
+        }
+
+        try {
+            countDownLatch.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("所有人都跑完了，裁判开始判成绩");
+    }
+
+    public static void main(String[] args) {
+        TestCountDownLatch testCountDownLatch = new TestCountDownLatch();
+        testCountDownLatch.begin();
+    }
+}
+```
 
