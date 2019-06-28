@@ -21,7 +21,7 @@ jmap| jmap -heap 11295
 jstack| jstack 11295 > jstack_20190613.log 
 iostat| 查看磁盘的读写情况 
 Source| 到数据库 
-|                        
+service mongo start/mongod| 启动mongo 
 |                        
 |                        
 |                        
