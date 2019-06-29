@@ -1,5 +1,5 @@
 ## 等待多线程完成的CountDownLatch
-CountDownLatch是java.util.concurrent包中的一个类。CountDownLatch主要提供的机制是当多个（具体数量等同于初始化CountDownLatch时count的值）线程都达到了预期状态或完成预期工作时触发事件，其它线程可以等待这个事件来触发自己后续的工作。
+CountDownLatch 叫倒计数，是java.util.concurrent包中的一个类。CountDownLatch主要提供的机制是当多个（具体数量等同于初始化CountDownLatch时count的值）线程都达到了预期状态或完成预期工作时触发事件，其它线程可以等待这个事件来触发自己后续的工作。
 
 CountDownLatch允许一个或多个线程等待其他线程完成操作。
 
@@ -22,9 +22,12 @@ CountDownLatch典型用法1：某一线程在开始运行前等待n个线程执�
 [CountDownLatch详解](https://yq.aliyun.com/articles/689069?spm=a2c4e.11157919.spm-cont-list.182.146c27ae5jqaF5)
 [什么时候使用CountDownLatch](http://www.importnew.com/15731.html)
 
-### 代码实例
+### 代码示例
 
 ```java
+/**
+ * 跑步比赛，裁判需要等到所有的运动员(“其他线程”)都跑到终点 (达到目标)，才能去算排名和颁奖。
+ */
 public class TestCountDownLatch {
     private CountDownLatch countDownLatch = new CountDownLatch(5);
 
