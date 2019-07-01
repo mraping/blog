@@ -106,6 +106,7 @@
 * 数据库
     - [MyBatis](/数据库/MyBatis.md)
     - [MySQL](/数据库/MySQL.md)
+    - [MySQL在线添加表字段](/数据库/MySQL在线添加表字段.md)
 * 其它资料
     - [文章列表](/其它资料)
 
