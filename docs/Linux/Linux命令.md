@@ -22,9 +22,9 @@ jstack| jstack 11295 > jstack_20190613.log
 iostat| 查看磁盘的读写情况 
 Source| 到数据库 
 service mongo start/mongod| 启动mongo 
-|                        
-|                        
-|                        
+rpm| 执行安装包 
+| －ivh 安装显示安装进度--install--verbose--hash 
+| －Uvh 升级软件包--Update 
 |                        
 |                        
 |                        

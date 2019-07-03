@@ -45,6 +45,7 @@
     - [Java并发编程-ThreadLocal](/Java/Java并发编程-ThreadLocal.md)
     - [Java并发编程-Thread.join()的使用](/Java/Java并发编程-Thread.join()的使用.md)
     - [基于LinkedHashMap实现缓存池](/Java/基于LinkedHashMap实现缓存池.md)
+    - [Java并发编程-CAS详解](/Java/Java并发编程-CAS详解.md)
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
     - [Linux查看CPU、内存、磁盘、网络](/Linux/Linux查看CPU、内存、磁盘、网络.md)
@@ -91,6 +92,7 @@
     - [桶排序](/算法/桶排序.md)
     - [计数排序](/算法/计数排序.md)
     - [选择排序](/算法/选择排序.md)
+    - [插入排序](/算法/插入排序.md)
 * 设计模式
     - [策略模式](/设计模式/策略模式.md)
     - [责任链模式](/设计模式/责任链模式.md)
@@ -108,10 +110,8 @@
     - [MyBatis](/数据库/MyBatis.md)
     - [MySQL](/数据库/MySQL.md)
     - [MySQL在线添加表字段](/数据库/MySQL在线添加表字段.md)
+* 性能调优
+    - [Tomcat调优](/性能调优/Tomcat调优.md)
 * 其它资料
     - [文章列表](/其它资料)
-* 工具脚本
-    - [将base64解码成图片并保存在传入的路径下](/工具脚本/将base64解码成图片并保存在传入的路径下)
-
-
 
