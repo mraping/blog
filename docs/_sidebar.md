@@ -48,6 +48,7 @@
     - [Java并发编程-CAS详解](/Java/Java并发编程-CAS详解.md)
     - [Java后台线程](/Java/Java后台线程.md)
     - [Java并发编程-锁](/Java/Java并发编程-锁.md)
+    - [Spring之@Transactional注解](/Java/Spring之@Transactional注解.md)
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
     - [Linux查看CPU、内存、磁盘、网络](/Linux/Linux查看CPU、内存、磁盘、网络.md)
