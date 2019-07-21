@@ -9,6 +9,9 @@
 - ConcurrentHashMap在对Key求Hash值的时候，为了实现Segment均匀分布，进行了两次Hash。
 
 ## JDK1.8
-ConcurrentHashMap取消了Segment分段锁，采用CAS和synchronized来保证并发安全。数据结构跟HashMap1.8的结构类似，数组+链表/红黑二叉树。
+ConcurrentHashMap**取消了Segment分段锁**，采用CAS和synchronized来保证并发安全。数据结构跟HashMap1.8的结构类似，数组+链表/红黑二叉树。
 
 synchronized只锁定当前链表或红黑二叉树的首节点，这样只要hash不冲突，就不会产生并发，效率又提升N倍。
+
+
+

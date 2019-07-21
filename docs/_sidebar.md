@@ -114,6 +114,7 @@
     - [MySQL](/数据库/MySQL.md)
     - [MySQL在线添加表字段](/数据库/MySQL在线添加表字段.md)
     - [数据库CPU使用率100%](/数据库/数据库CPU使用率100%.md)
+    - [MyBatis缓存](/数据库/MyBatis缓存.md)
 * 性能调优
     - [Tomcat调优](/性能调优/Tomcat调优.md)
 * 其它资料
