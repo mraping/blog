@@ -25,18 +25,18 @@ service mongo start/mongod| 启动mongo
 rpm| 执行安装包 
 | －ivh 安装显示安装进度--install--verbose--hash 
 | －Uvh 升级软件包--Update 
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
+netstat -lntp \| grep 6379| 检测6379端口是否在监听 
+ps -ef grep redis| 检查后台进程是否正在运行 
+option + f/b| 命令跳 
+redis配置全局软连接| sudo ln -s /Users/suxiongwei/program/redis-5.0.2/src/redis-server /usr/local/bin/redis-server 
+netstat -anp tcp \|grep 6379| mac 下查看redis端口 
+/usr/local/mongodb/bin|                        
+.mongod| 启动mongo 
+.mongo| 进入mongoDB后台 
+select version();| 显示mysql版本 
+查看kafka topic列表，使用--list参数| bin/kafka-topics.sh --zookeeper 127.0.0.1:2181 --list 
+查看kafka特定topic的详情，使用--topic与--describe参数| bin/kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic exportAllResultsOnebox --describe 
+| bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group ksx_exam 
 |                        
 |                        
 |                        

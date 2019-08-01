@@ -10,3 +10,9 @@
 - 可重复读( REPEATABLE READ)**InnoDB的默认隔离等级**。事务进行时，其它所有事务对其不可见，即多次执行读，得到的结果是一样的！
 - 可串行化（SERIALIZABLE） 在读取的每一行数据上都加锁，会造成大量的锁超时和锁征用，严格数据一致性且没有并发是可使用。
 
+
+
+SHOW VARIABLES LIKE 'autocommit';
+
+SET AUTOCOMMIT = 1
+
