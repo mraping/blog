@@ -29,3 +29,10 @@ docker search httpd
 mvn package docker:build
 
 docker run -p 8080:8080 -t springboot/spring-boot-docker
+
+
+
+以守护进程的方式启动
+
+docker run -d -p 8080:8080 -t springboot/spring-boot-docker
+

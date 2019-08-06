@@ -73,6 +73,9 @@
     - [SpringBoot应用集成SpringSession](/SpringBoot/SpringBoot应用集成SpringSession.md)
     - [SpringBoot与SpringData-JPA的集成](/SpringBoot/SpringBoot与SpringData-JPA的集成.md)
     - [自定义注解打印出入参日志](/SpringBoot/自定义注解打印出入参日志.md)
+
+* SpringCloud
+    - [服务网关](/SpringCloud/服务网关.md)
 * 搜索
     - [ELKStack](/搜索/ELKStack.md)
     - [lucene相关度打分](/搜索/lucene相关度打分.md)
@@ -117,6 +120,7 @@
     - [MySQL最大连接数的设置与优化](/数据库/MySQL最大连接数的设置与优化.md)
     - [MySQL-showprocesslist详解](/数据库/MySQL-showprocesslist详解.md)
     - [SQL注入及防止注入措施](/数据库/SQL注入及防止注入措施.md)
+    - [for循环根据id获取数据与in获取数据性能差异](/数据库/for循环根据id获取数据与in获取数据性能差异.md)
 * 性能调优
     - [Tomcat调优](/性能调优/Tomcat调优.md)
 * 容器化部署
