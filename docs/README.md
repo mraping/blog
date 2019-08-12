@@ -1,7 +1,5 @@
 # 苏雄伟技术博客
 
-[![stars](https://badgen.net/badge/star/177/blue)]() [![forks](https://badgen.net/badge/fork/148/blue)]() 
-
 > 本博客是作者从事```Java Developer```以来的学习历程，旨在记录平时工作学习遇到的技术问题，如果本文能给您得到帮助，我将感到十分荣幸！
 
 **如何支持：**
@@ -23,6 +21,9 @@
 * [`Interview`](/Interview/README.md)
 * [`数据库`](/数据库/README.md)
 * [`其它资料`](https://github.com/suxiongwei/blog/tree/master/docs/其它资料)
+* [`工具脚本`](https://github.com/suxiongwei/blog/tree/master/docs/工具脚本)
+* [`容器化部署`](https://github.com/suxiongwei/blog/tree/master/docs/容器化部署)
+* [``SpringCloud``](https://github.com/suxiongwei/blog/tree/master/docs/SpringCloud)
 
 ## 转载分享
 
