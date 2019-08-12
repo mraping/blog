@@ -38,7 +38,7 @@ select version();| 显示mysql版本
 查看kafka特定topic的详情，使用--topic与--describe参数| bin/kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic exportAllResultsOnebox --describe 
 | bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group ksx_exam 
 unrar x 需解压的文件目录| 解压rar 
-|                        
+合并两个独立启动仓库的历史| git pull origin master --allow-unrelated-histories 
 |                        
 |                        
 |                        
