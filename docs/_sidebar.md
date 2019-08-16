@@ -18,6 +18,7 @@
     - [MySQL读写分离](/架构性能/MySQL读写分离.md)
     - [大型网站灵魂-性能](/架构性能/大型网站灵魂-性能.md)
     - [Redis定时推送](/架构性能/Redis定时推送.md)
+    - [Redis分布式锁](/架构性能/Redis分布式锁.md)
 * Java
     - [Java并发编程-Atomics](/Java/Java并发编程-Atomics.md)
     - [Java并发编程-ReentrantLock](/Java/Java并发编程-ReentrantLock.md)
