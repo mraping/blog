@@ -2,7 +2,7 @@
     * [简介](README.md)
 * 架构性能
     - [支撑十万并发的黑科技](/架构性能/支撑十万并发的黑科技.md)
-    - [redis](/架构性能/redis.md)
+    - [Redis](/架构性能/Redis.md)
     - [高并发的技术方案](/架构性能/高并发的技术方案.md)
     - [分布式系统](/架构性能/分布式系统.md)
     - [系统拆分](/架构性能/系统拆分.md)
@@ -51,6 +51,8 @@
     - [Java并发编程-锁](/Java/Java并发编程-锁.md)
     - [Spring之@Transactional注解](/Java/Spring之@Transactional注解.md)
     - [java中异常抛出后代码还会继续执行吗](/Java/java中异常抛出后代码还会继续执行吗.md)
+    - [request.getParameter()、request.getInputStream()和request.getReader()](/Java/request.getParameter()、request.getInputStream()和request.getReader().md)
+    - [方法里调用spring注入的方法](/Java/方法里调用spring注入的方法.md)
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
     - [Linux查看CPU、内存、磁盘、网络](/Linux/Linux查看CPU、内存、磁盘、网络.md)

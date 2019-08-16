@@ -39,8 +39,8 @@ select version();| 显示mysql版本
 | bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group ksx_exam 
 unrar x 需解压的文件目录| 解压rar 
 合并两个独立启动仓库的历史| git pull origin master --allow-unrelated-histories 
-|                        
-|                        
+打印集群的信息| cluster info 
+列出集群当前已知的所有节点(node)，以及这些节点的相关信息| cluster nodes 
 |                        
 |                        
 |                        
