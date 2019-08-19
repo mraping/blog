@@ -41,8 +41,8 @@ unrar x 需解压的文件目录| 解压rar
 合并两个独立启动仓库的历史| git pull origin master --allow-unrelated-histories 
 打印集群的信息| cluster info 
 列出集群当前已知的所有节点(node)，以及这些节点的相关信息| cluster nodes 
-|                        
-|                        
+对当前目录下```所有的目录和文件```的大小进行汇总,-s表示汇总,-h表示以KB, MB, GB, TB格式进行人性化显示| du -sh . 
+对当前目录下每一个目录和文件的大小分别进行汇总| du -sh * 
 |                        
 |                        
 |                        
