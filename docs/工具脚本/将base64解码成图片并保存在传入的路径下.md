@@ -29,3 +29,52 @@
     }
 ```
 
+
+
+```java
+		/**
+     * 根据班级名称导出考生证件照
+     * @return
+     */
+    @Get("/generate_user_picture")
+    public String generateUserPicture(){
+        List<Integer> departmentList = new ArrayList<>();
+        departmentList.add(15);
+        departmentList.add(18);
+        departmentList.add(12);
+        departmentList.add(21);
+        departmentList.add(22);
+
+        int userPicNum = 0;
+
+        for (Integer depId : departmentList) {
+            String departmentName = departmentTreeBiz.getNameById(depId);
+            String dir = "/Users/suxiongwei/Desktop" + File.separator + departmentName + File.separator;
+            String fileName,filePath;
+
+            List<Integer> userIds = departmentUserBiz.getUserIdsByDepId(depId);
+            List<UsersModel> usersModels = userBiz.getUserByIds(userIds);
+
+            for (UsersModel usersModel : usersModels) {
+                if(StringUtils.isEmpty(usersModel.getPhoto()) || usersModel.getPhoto().startsWith("http")){
+                    LOGGER.info("{}没有证件照，导出跳过" , usersModel.getId());
+                    continue;
+                }
+                File dirFile = new File(dir);
+                if (!dirFile.exists()) {
+                    dirFile.mkdirs();
+                }
+                fileName = usersModel.getUserName().replaceAll("@1","") + "-" + usersModel.getSurname() + ".jpg";
+                filePath = dir + fileName;
+
+                Bson filter = Filters.eq("_id", new ObjectId(usersModel.getPhoto()));
+                Document document = imageByteMongoBiz.findOne(filter);
+                String encodeStr = document.getString("imageEncodeStr");
+                examInfoBiz.Base64ToImage(encodeStr,filePath);
+                userPicNum++;
+            }
+        }
+        return "@" + JSONUtil.writeValueAsString(userPicNum);
+    }
+```
+

@@ -41,3 +41,11 @@ echo Start Success!
 ```
 
 /Users/suxiongwei/.bash_profile
+
+
+
+
+
+
+
+nohup /home/work/software/jdk1.8.0_191/bin/java -Dserver.port=9071 -Dspring.profiles.active=dev -jar ksxing-ow-0.0.1-SNAPSHOT.war > home.log 2>&1 &

@@ -43,27 +43,28 @@ unrar x 需解压的文件目录| 解压rar
 列出集群当前已知的所有节点(node)，以及这些节点的相关信息| cluster nodes 
 对当前目录下```所有的目录和文件```的大小进行汇总,-s表示汇总,-h表示以KB, MB, GB, TB格式进行人性化显示| du -sh . 
 对当前目录下每一个目录和文件的大小分别进行汇总| du -sh * 
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
-|                        
+查使用内存最多的10个进程| ps -aux \| sort -k4nr \| head -n 10 
+跳到第n行"ngg" 或 "nG" 或 ":n"|                        
+删除一个单词"dw"，删除一个单词进入插入模式"cw"|                        
+粘贴"p"，交换两个字符"xp"|                        
+复制"y"，复制一行"yy"|                        
+删除到行尾可以使用"D"或"C"|                        
+修改item2用户名称| vim agnoster.zsh-theme；https://segmentfault.com/q/1010000011533134 
+批量添加注释| v <br/>选中<br/>control + v<br/>i<br/>esc * 2 
+Item2清除当前行| control + u 
+到行首| control + a 
+到行尾| control + e 
+搜索命令历史| control + r 
+netstat| https://www.cnblogs.com/EasonJim/p/8098532.html 
+| https://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html 
+统计80端口连接数| netstat -nat \| grep -i "80" \| wc -l 
+统计已连接上的，状态为“established| netstat -anp \| grep ESTABLISHED \| wc -l 
+Mac top| 先输入 ***o\*** 键 ,再输入 ***cpu\*** 则按cpu使用量排序，输入 ***rsize\*** 按内存使用量排序 
+vim /etc/motd| 设置登录欢迎语 
+tail -300f shopbase.log| \倒数300行并进入实时监听文件写入模式 
+git branch \| xargs git branch -d| 删除当前分支外的所有分支 
+git branch \| grep ‘dev*’  \| xargs git branch -d| 删除分支名包含指定字符的分支 
+Idea 驼峰| shift + option + u 
 |                        
 |                        
 |                        

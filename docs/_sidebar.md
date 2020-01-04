@@ -23,6 +23,7 @@
     - [Zookeeper概览](/架构性能/Zookeeper概览.md)
     - [Zookeeper使用场景](/架构性能/Zookeeper使用场景.md)
     - [Zookeeper分布式锁](/架构性能/Zookeeper分布式锁.md)
+    - [配置redis外网可访问](/架构性能/配置redis外网可访问.md)
 * Java
     - [Java并发编程-Atomics](/Java/Java并发编程-Atomics.md)
     - [Java并发编程-ReentrantLock](/Java/Java并发编程-ReentrantLock.md)
@@ -60,6 +61,8 @@
     - [方法里调用spring注入的方法](/Java/方法里调用spring注入的方法.md)
     - [计算机基础-二进制](/Java/计算机基础-二进制.md)
     - [JavaIO](/Java/JavaIO.md)
+    - [Java中foreach与正常for循环效率对比](/Java/Java中foreach与正常for循环效率对比.md)
+    - [阿里的开发手册中为什么禁用map来作为查询的接受类?](/java/阿里的开发手册中为什么禁用map来作为查询的接受类?.md)
 * Linux
     - [Linux命令](/Linux/Linux命令.md)
     - [Linux查看CPU、内存、磁盘、网络](/Linux/Linux查看CPU、内存、磁盘、网络.md)
