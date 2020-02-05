@@ -36,3 +36,25 @@ docker run -p 8080:8080 -t springboot/spring-boot-docker
 
 docker run -d -p 8080:8080 -t springboot/spring-boot-docker
 
+
+
+docker进入mysql容器
+
+docker exec -it mysql bash
+
+
+
+docker运行rabbitmq
+
+```shell
+docker run -d -p 5672:5672 -p 15672:15672 --name rabbitmq rabbitmq:management
+```
+
+docker创建redis
+
+```shell
+docker run -p 6379:6379 -d --env HOST_IP=127.0.0.1 --name redis redis:5
+```
+
+
+
