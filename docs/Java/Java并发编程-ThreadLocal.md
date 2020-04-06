@@ -2,9 +2,13 @@
 
 ThreadLocal即线程变量，是一个以ThreadLocal对象为键、任意对象为值的存储结构。这个结构被附带在线程上，也就是说一个线程 可以根据一个ThreadLocal对象查询到绑定在这个线程上的一个值。可以通过set(T)方法来设置一个值， 在当前线程下再通过get()方法获取到原先设置的值。
 
-> 作者： 零度冰炫 匠心零度
->
-> 链接：https://mp.weixin.qq.com/s/8Ql-5kaUtxiCWyHR6uPPBw
+参考文章：
+
+[彻底理解ThreadLocal](https://www.cnblogs.com/xzwblog/p/7227509.html)
+
+[手撕面试题ThreadLocal！！！](https://mp.weixin.qq.com/s/8Ql-5kaUtxiCWyHR6uPPBw)
+
+[Java并发编程：深入剖析ThreadLocal](https://www.cnblogs.com/dolphin0520/p/3920407.html)
 
 ### ThreadLocal用在什么地方？
 

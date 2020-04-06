@@ -65,11 +65,11 @@ tail -300f shopbase.log| \倒数300行并进入实时监听文件写入模式
 git branch \| xargs git branch -d| 删除当前分支外的所有分支 
 git branch \| grep ‘dev*’  \| xargs git branch -d| 删除分支名包含指定字符的分支 
 Idea 驼峰| shift + option + u 
-|                        
-|                        
-|                        
-|                        
-|                        
+显示系统主机名| uname -n 
+shell中，将command1的输出作为command2的输入| \|：管道符号，是unix一个很强大的功能，符号为一条竖线：“\|” 
+| 用法:command 1 
+| 他的功能是把第一个命令command1的执行结果作为command2的输入传给command2 
+在文件中查找显示所有以"*"打头的行| grep \* file 
 |                        
 |                        
 |                        
